@@ -47,7 +47,7 @@ body > header > nav a:hover, body > header > nav:active {
 
 /* Horizontal Navigation List Styles */
 
-nav.horizontal ul li {
+nav.horizontal ul {
    background-color: rgb(18, 31, 102);  
    font-size: 0.9em;
    padding: 10px 0;
