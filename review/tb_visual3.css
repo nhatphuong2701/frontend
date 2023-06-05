@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Review Assignment
+   
+   Design Style Sheet for Tree and Book Family Home Page
+   Author: Nhat Phuong
+   Date:   5/6/2023
+   
+   Filename: tb_visual3.css
+
+*/
+
+/* HTML Styles */
+html {
+    background-image: url("tb_back5.png");
+}
+
+
+/* Page Body Styles */
+
+body {
+    border-left: 3px solid rgb(169, 130, 88);
+    border-right: 3px solid rgb(169, 130, 88);
+    box-shadow: 25px 0px 35px rgb(53, 21, 0),
+     -25px 0px 35px rgb(53, 21, 0);
+
+}
+
+
+/* Main Styles */
+main {
+    background-image: url("tb_back7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: padding-box;
+    box-shadow: inset -10px -10px 25px rgb(71, 71, 71), 
+    inset 10px 10px 25px rgb(71, 71, 71);
+}
+
+
+/* Figure Box Styles */
+
+figure {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+figure img {
+    border-width: 25px;
+    border: solid;
+    border-image: url("tb_frame.png") 60/20px/20px stretch;
+    display: block;
+    width: 100%;
+    -webkit-filter: sepia();
+    filter: sepia();
+}
+
+figcaption {
+    font-family: 'Palatino Linotype', 'Palatino', 'Times New Roman', serif;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Article Styles */
+article {
+    background-image: url("tb_back6.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 15%;
+    border-bottom: double rgb(147, 116, 68);
+    border-right: double rgb(147, 116, 68);
+    border-radius: 80px 0;
+    box-shadow: inset -10px -10px 25px rgba(184, 154, 112, 0.7);
+}
+
+
+/* Footer Styles */
+
+footer {
+    background: linear-gradient(325deg, rgb(180, 148, 104) 20%, rgb(40, 33, 23) 60%)
+}
+
