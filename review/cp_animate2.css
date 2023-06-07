@@ -14,7 +14,11 @@
 */
 
 /* Transition Styles */
-
+nav#topLinks {
+   color: rgb(255, 255, 255);
+   text-shadow: 1px -1px 1px;
+   transform: scale(1,1) translateY(0px);
+}
 
 
 
