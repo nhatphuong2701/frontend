@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+html {
+    background-color: white;
+    font-family: "cursive";
+}
+body {
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: rgb(255, 225, 133);
+    height: 1200px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    height: 250px;
+    border: solid;
+    border-color: pink;
+    margin: 20px ;
+    justify-content: space-around;
+}
+
+header img {
+    display: flex;
+    width: 30%;
+    border: 2px solid rgb(247, 168, 181);
+    border-radius: 50%;
+    margin: auto;
+}
+
+header div {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+header div span {
+    font-weight: bold;
+    font-style: normal ;
+    font-size: 50px;
+    color: black;
+}
+
+#main {
+    display: flex;
+    background-color: rgb(255, 225, 133);
+    flex-direction: column;
+    height: 900px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(255, 225, 133);
+    justify-content: space-between;
+}
+#top {
+    display: flex;
+    width: 100%;
+    height: 48%;
+    justify-content: space-between;
+}
+
+#bottom {
+    display: flex;
+    width: 100%;
+    height: 48%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#bottomLeft {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+}
+
+#experience {
+    background-color: white;
+    border: solid;
+    border-color: pink;
+    width: 60%;
+}
+
+
+#skill {
+    background-color: white;
+    width: 35%;
+    border: solid;
+    border-color: pink;
+}
+
+
+.bottomRight {
+    border: solid;
+    background-color: white;
+    border-color: pink;
+    width: 100%;
+    height: 45%;
+}
+
+#bottomRight {
+    background-color: white;
+    width: 55%;
+    border: solid;
+    border-color: pink;
+}
+
+.bottomRight img {
+    width: 5%;
+}
+
+#content, #educations {
+    display: flex;
+    flex-direction: column;
+}
+
+.content,.edu {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+
+#year1, #year2, #edYear1, #eduYear2 {
+    width: 20%;
+    border: solid;
+    border-radius:16px;
+    border-color: rgb(247, 168, 181);
+    background-color: rgb(247, 168, 181);
+    box-shadow: 0 0 7px rgb(238, 155, 169);
+    color: white;
+    font-size:large;
+    text-align: center;
+    height: 20px;
+    margin-top: 45px;
+    padding-bottom: 2.5%;
+}
+
+#ex1, #eduItem1 {
+    width: 75%
+}
+
+
+#ex2, #eduItem2 {
+    width: 75%
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 0 rgb(247, 168, 181), -2px 0px rgb(247, 168, 181), 0 2px rgb(247, 168, 181), 0 -2px rgb(247, 168, 181),
+    1px 1px rgb(247, 168, 181), -1px -1px rgb(247, 168, 181), 1px -1px rgb(247, 168, 181), -1px 1px rgb(247, 168, 181);
+    padding-left: 20px;
+}
+
+/* #experience > h2 > img {
+    width: 0.7em;
+    position: relative;
+    top: 0.7em;
+} */
+
+.skillBody {
+    padding-left: 20px;
+}
+
+.skillBody p {
+    border: 1.7px solid  rgb(247, 168, 181);
+    box-shadow: 0 0 5px rgb(238, 155, 169);
+    border-radius: 16px;
+    width: 60%;
+    height: 25px;
+    text-align: center;
+    color:  rgb(247, 168, 181);
+}
+
+.bottomRight > div {
+    margin-left: 20px;
+}
