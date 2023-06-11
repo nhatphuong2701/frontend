@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Home Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="design.css">
+    <script src="https://kit.fontawesome.com/8da7cb14c5.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <div onclick="closeNavMenu()" id="overlay"></div>
+        <nav id="classMenu">
+            <ul class="subMenu">
+                <span class="class-status">Active Classes</span>
+                <li class="nav-item">
+                    <a href="#">Non-IT 2023</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Junior 2023</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">English 2023</a>
+                </li>
+            </ul>
+            <ul class="subMenu">
+                <span class="class-status">Expired classes</span>
+                <li class="nav-item">
+                    <a href="#">Non-IT 2022</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Junior class 2022</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">English class 2022</a>
+                </li>
+            </ul>
+        </nav>
+        <header class="header-wrapper">
+            <div class="container">
+                <div class="header">
+                    <div class="left-header">
+                        <div onclick="openNavMenu()" class="nav-icon">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <h3 class="title">Company classroom</h3>
+                    </div>
+                    <div class="create-class-icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <div class="intro-wrapper">
+            <div class="container">
+                <section id="intro">
+                    <div id="welcome">
+                        <span>Welcome to company classroom</span>
+                        <!-- <p>Study with us</p> -->
+                    </div>
+                    <div id="introImg">
+                        <img src="images/introimg.png" alt="">
+                    </div>
+                </section>
+            </div>
+
+        </div>
+        <div class="container">
+
+            <section id="mainPage">
+                <div class="class" id="class1">
+                    <div class="className">
+                        <span>Non-IT 2023</span>
+                    </div>
+                    <div class="teacherDetail">
+                        <div class="teacherName">
+                            <p>Nguyen Huy</p>
+                        </div>
+                        <div class="teacherAva"><img src="images/avatar.png" alt="teacher avatar"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="studentNum">
+                            <p>Students:</p>
+                            <p>15</p>
+                        </div>
+                        <div class="endDate">
+                            <p>End date:</p>
+                            <p>13/09/2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="class" id="class2">
+                    <div class="className">
+                        <span>Junior class 2023</span>
+                    </div>
+                    <div class="teacherDetail">
+                        <div class="teacherName">
+                            <p>Thanh Liem</p>
+                        </div>
+                        <div class="teacherAva"><img src="images/spiderman.png" alt="teacher avatar"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="studentNum">
+                            <p>Students:</p>
+                            <p>6</p>
+                        </div>
+                        <div class="endDate">
+                            <p>End date:</p>
+                            <p>15/10/2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="class" id="class3">
+                    <div class="className">
+                        <span>English class 2023</span>
+                    </div>
+                    <div class="teacherDetail">
+                        <div class="teacherName">
+                            <p>Josh Wenner</p>
+                        </div>
+                        <div class="teacherAva"><img src="images/shield.png" alt="teacher avatar"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="studentNum">
+                            <p>Students:</p>
+                            <p>10</p>
+                        </div>
+                        <div class="endDate">
+                            <p>End date:</p>
+                            <p>05/11/2023</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="class" id="class4">
+                    <div class="className">
+                        <span>English class 2022</span>
+                    </div>
+                    <div class="teacherDetail">
+                        <div class="teacherName">
+                            <p>Thomas</p>
+                        </div>
+                        <div class="teacherAva"><img src="images/hammer.png" alt="teacher avatar"></div>
+                    </div>
+                    <div class="detail">
+                        <div class="studentNum">
+                            <p>Students:</p>
+                            <p>12</p>
+                        </div>
+                        <div class="endDate">
+                            <p>End date:</p>
+                            <p>20/9/2022</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
